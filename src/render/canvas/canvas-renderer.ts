@@ -128,7 +128,7 @@ export class CanvasRenderer extends Renderer {
 
     async renderStack(stack: StackingContext): Promise<void> {
         const styles = stack.element.container.styles;
-        if (styles.isVisible()) {
+        if (styles.isChildVisible()) {
             await this.renderStackContent(stack);
         }
     }
