@@ -120,5 +120,8 @@
   "dependencies": {
     "css-line-break": "^2.1.0",
     "text-segmentation": "^1.0.3"
+  },
+  "overrides": {
+    "fsevents": "1.2.13"
   }
 }
